@@ -1,24 +1,29 @@
 body {
-  /*background-image:   url("grid-dark.png");*/
   background-color:   #222222;
-  position:           fixed;
-  top:                2%;
+  position:           absolute;
+  height:             100%;
+  width:              100%;
+  margin:             0;
 }
 
 table {
-  table-layout:       fixed;
   position:           relative;
-  left:               149px;
-  width:              1622px;
+  margin:             10% 8% 10% 8%;
+  width:              auto;
+}
+
+#grid {
+  width: 82%;
 }
 
 td {
-  size:               exact;
-  width:              392px;
+  width:              25%;
 }
 
 tr {
-  height:             203px;
+  height:             30%;
+  margin-top:         5px;
+  margin-bottom:      5px;
 }
 
 img {
@@ -28,6 +33,6 @@ img {
 
 img:hover {
   background-color:   grey;
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform:  scale(1.25);
+  transition:         all 200ms ease-in;
+  transform:          scale(1.25);
 }
