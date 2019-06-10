@@ -1,15 +1,17 @@
 body {
-  background-color:   #222222;
-  position:           absolute;
-  height:             100%;
-  width:              100%;
-  margin:             0;
+  background-color: #222222;
+  position:         absolute;
+  height:           100%;
+  width:            100%;
+  margin:           0;
 }
 
 table {
-  position:           relative;
-  margin:             10% 8% 10% 8%;
-  width:              auto;
+  position:         relative;
+  margin:           10% 12% 10% 12%;
+  width:            auto;
+  border-collapse:  separate;
+  border-spacing:   0 20px;
 }
 
 #grid {
@@ -17,22 +19,21 @@ table {
 }
 
 td {
-  width:              25%;
+  width:            25%;
 }
 
 tr {
-  height:             30%;
-  margin-top:         5px;
-  margin-bottom:      5px;
+  height:           30%;
+  padding: 5px;
 }
 
 img {
-  display:            block;
-  margin:             auto;
+  display:          block;
+  margin:           auto;
 }
 
 img:hover {
-  background-color:   grey;
-  transition:         all 200ms ease-in;
-  transform:          scale(1.25);
+  background-color: grey;
+  transition:       all 200ms ease-in;
+  transform:        scale(1.25);
 }
